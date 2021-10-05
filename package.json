@@ -1,28 +1,30 @@
 {
-  "name": "js-testing-introduction",
-  "version": "1.0.0",
-  "description": "An introduction to JS testing",
-  "main": "app.js",
-  "scripts": {
-    "start": "webpack app.js --mode development --watch",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "js",
-    "javascript",
-    "testing",
-    "jest",
-    "unit",
-    "tests",
-    "integration",
-    "tests",
-    "e2e",
-    "tests"
-  ],
-  "author": "Maximilian Schwarzmüller/ Academind GmbH",
-  "license": "ISC",
-  "devDependencies": {
-    "webpack": "^4.20.2",
-    "webpack-cli": "^3.1.2"
-  }
+	"name": "js-testing-introduction",
+	"version": "1.0.0",
+	"description": "An introduction to JS testing",
+	"main": "app.js",
+	"scripts": {
+		"start": "webpack app.js --mode development --watch",
+		"test": "jest"
+	},
+	"keywords": [
+		"js",
+		"javascript",
+		"testing",
+		"jest",
+		"unit",
+		"tests",
+		"integration",
+		"tests",
+		"e2e",
+		"tests"
+	],
+	"author": "Maximilian Schwarzmüller/ Academind GmbH",
+	"license": "ISC",
+	"devDependencies": {
+		"jest": "^27.2.4",
+		"puppeteer": "^10.4.0",
+		"webpack": "^4.20.2",
+		"webpack-cli": "^3.1.2"
+	}
 }
